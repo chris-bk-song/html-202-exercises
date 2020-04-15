@@ -1,0 +1,80 @@
+html,
+body {
+  background-color: white;
+  margin: 40px;
+  padding: 0;
+  color: #333;
+  font-family: Garamond;
+}
+
+header,
+footer {
+  background-color: white;
+  margin: 0px;
+  padding: 40px;
+  position: relative;
+  text-align: right;
+  color: black;
+  font-size: 0px;
+
+}
+
+.top_left {
+  position: absolute;
+  bottom: 300px;
+  left: 16px;
+  font-size: 300px;
+  padding: 0px;
+}
+
+.bottom_left {
+  font-size: 25px;
+  color: grey;
+  text-align: left;
+  position: relative;
+  top: 20px;
+  padding: 16px;
+}
+
+.column {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.column.left {
+  width: 33.33%;
+  float: left;
+}
+.column.center {
+    width:33.33%;
+    float: left;
+}
+.column.right {
+    width: 33.33%;
+    float: right;
+}
+
+footer {
+  clear: both;
+}
+
+.intro {
+  position: relative;
+}
+
+p {
+  position: relative;
+}
+h2 {
+  position: relative;
+}
+a {
+  position: relative;
+}
+
+/* h1:hover {
+  color: greenyellow;
+  transform: rotate(1000deg);
+} */
